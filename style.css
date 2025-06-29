@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;;
+    text-align:center;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    gap: 10px;
+}
+
+img {
+    border-radius: 8px;
+    width: 350px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    border: 3px solid black;
+    width: 500px;
+    height: 500px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.cell {
+    aspect-ratio: 1/1;
+    box-sizing: border-box;     
+}
+
+label {
+    font-size: 20px;
+}
+
+button {
+    color: red;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.itemInput {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+}
