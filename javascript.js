@@ -36,7 +36,7 @@ function deleteBox() {
     }
 }
 
-function addBox() {
+function addBox(num) {
     for (let i = 0; i < num; i++) {
         for (let j = 0; j < num; j++){
             const box = document.createElement("div");
@@ -57,7 +57,7 @@ btn.addEventListener("click", () => {
 
     deleteBox()
 
-    addBox()
+    addBox(num)
 
     input.focus()
 });
